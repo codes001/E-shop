@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+    <title>Eshop Website</title>
+</head>
+
+<body id="home">
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i class="fas fa-book"></i> E</span>Shop
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header: Showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">
+                The sky is the limit
+            </h1>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nobis sapiente vitae similique
+                molestias id! </p>
+            <a href="#what" class="btn">Read More</a>
+        </div>
+    </header>
+
+    <!-- Section: What We Do -->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsum saepe deserunt ipsam.
+                            Autem eligendi sit, dolores adipisci ipsam at dignissimos, et magnam ut consequatur voluptas
+                            porro sapiente. Eius, cum.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book-reader"></i>
+                    <div>
+                        <h3>Portfolio Management</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus, soluta culpa vel sed
+                            odit sunt, quam cupiditate ratione alias maxime consequuntur itaque, amet excepturi facere
+                            blanditiis nemo corrupti doloremque!</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fab fa-pencil-alt"></i>
+                    <div>
+                        <h3>Tax & Custodial</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit labore libero deserunt. Vel,
+                            perferendis. Et corrupti fuga dolores sapiente reprehenderit ipsum, distinctio quaerat nisi
+                            tempora quis atque aspernatur! Animi, recusandae?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Section: Who we are -->
+
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt architecto cum molestiae laborum
+                laboriosam voluptatibus illum, adipisci voluptates ad sed itaque dolores earum, praesentium
+                exercitationem eveniet, nam alias reprehenderit.</p>
+            <h3>Our Team</h3>
+            <ul class="list">
+                <li>Prince Effiong: CEO</li>
+                <li>Charles Okoro : CFO</li>
+                <li>David Olatunji: Investment Manager</li>
+                <li>Ibrahim Mohammed: Accountant</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section: Clients -->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">Our</span> Clients</h2>
+            <div class="items py-1">
+                <div>
+                    <img src="./img/tiidelab.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./img/itf.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./img/tcl.jpg" alt="">
+                </div>
+                <div>
+                    <img src="./img/neca.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+            </form>
+            <input type="submit" value="Send" class="btn btn-dark">
+        </div>
+
+        <div class="map"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div class="container">
+            <p>Eshop Copyright &copy; 2023.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtJfM3eNekgGJhABbD7PKX-LKIYVOZags&callback=initMap">
+        </script>
+
+</body>
+
+</html>
